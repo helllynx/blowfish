@@ -8,7 +8,7 @@ if __name__ == '__main__':
 
 
 
-    key = open("key.txt","r+").read()
+    key = open("key.txt","r").read()
     cipher = Blowfish(key)
 
     # print "Testing block encrypt:"
